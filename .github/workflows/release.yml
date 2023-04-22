@@ -22,13 +22,13 @@ jobs:
     - run: npm ci
     - run: npm run build --if-present
       env:
-        REACT_APP_API_KEY: 'https://rest.core.persistence.one'
-        REACT_APP_TENDERMINT_RPC_ENDPOINT: 'https://rpc.core.persistence.one'
-        REACT_APP_WEBSITE_URL: 'https://wallet.persistence.one'
-        REACT_APP_EXPLORER_API: 'https://www.mintscan.io/persistence'
+        REACT_APP_API_KEY: 'https://rest.core.fury.fan'
+        REACT_APP_TENDERMINT_RPC_ENDPOINT: 'https://rpc.core.fury.fan'
+        REACT_APP_WEBSITE_URL: 'https://wallet.fury.fan'
+        REACT_APP_EXPLORER_API: 'https://www.mintscan.io/gridiron'
         REACT_APP_MAIL_CHIMP_URL: 'https://one.us17.list-manage.com/subscribe/post?u=fd70c7f5c39a43acbedb49253&amp;id=7f8e2dbc48'
         REACT_APP_CHAIN_ID: 'core-1'
-        REACT_APP_CHAIN_NAME: 'Persistence'
+        REACT_APP_CHAIN_NAME: 'Gridiron'
         REACT_APP_IBC_CONFIG: 'ibcMainnet.json'
         REACT_APP_GA_TRACKING_ID: 'G-XQ9NQJL11L'
         REACT_APP_SENTRY_API: 'https://a31c61f5ce774e0791ffdc3b830b406c@o1083089.ingest.sentry.io/6092403'

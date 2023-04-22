@@ -3,7 +3,7 @@ import {pathToString} from "@cosmjs/crypto";
 import {makeHdPath} from "./helper";
 
 const bip39 = require("bip39");
-const prefix = "persistence";
+const prefix = "gridiron";
 
 async function getWallet(mnemonic, walletPath = makeHdPath(), bip39Passphrase = "") {
     try {

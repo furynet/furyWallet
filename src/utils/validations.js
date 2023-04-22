@@ -155,7 +155,7 @@ export const ValidateStringSpaces = e => {
     }
 };
 
-export const validateAddress = (address, prefix = "persistence") => {
+export const validateAddress = (address, prefix = "gridiron") => {
     if (prefix === "cosmos") {
         if (!address.startsWith(prefix) || address.length !== 45) {
             return new Error('Invalid Recipient Address');

@@ -174,7 +174,7 @@ const ModalAddress = () => {
 
             <ReactModal.Body className="create-wallet-body import-wallet-body">
                 <p className='note'>
-                    As part of the Persistence v3 chain upgrade, the default coin-type was changed from 750 to 118, which means a new address (coin-type 118) was generated based on your KeyStore.
+                    As part of the Gridiron v3 chain upgrade, the default coin-type was changed from 750 to 118, which means a new address (coin-type 118) was generated based on your KeyStore.
                 </p>
                 
                 <div className="form-field radio">
@@ -200,7 +200,7 @@ const ModalAddress = () => {
                                     />
                                     :
                                     <>
-                                        {coin118Balance+coin118Delegations+coin118DUnbonding} XPRT
+                                        {coin118Balance+coin118Delegations+coin118DUnbonding} FURY
                                     </>
                                 }
                             </p>
@@ -231,7 +231,7 @@ const ModalAddress = () => {
                                     />
                                     :
                                     <>
-                                        {coin750Balance + coin750Delegations + coin750DUnbonding} XPRT
+                                        {coin750Balance + coin750Delegations + coin750DUnbonding} FURY
                                     </>
                                 }
                             </p>
@@ -242,7 +242,7 @@ const ModalAddress = () => {
                     <b>Note:</b> Fungibility of assets is NOT impacted and both coin-types are still supported. 
                     Each address can hold assets, and assets can be transferred between account types.
                     Read all details&nbsp;
-                    <a href="https://blog.persistence.one/2022/07/14/coin-type-migration-from-750-to-118-for-persistence-core-1-chain-xprt/"
+                    <a href="https://blog.fury.fan/2022/07/14/coin-type-migration-from-750-to-118-for-gridiron-core-1-chain-fury/"
                         target="_blank" className="tx-hash" rel="noopener noreferrer">
                         here
                     </a>

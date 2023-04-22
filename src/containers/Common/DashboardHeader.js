@@ -151,12 +151,12 @@ const DashboardHeader = () => {
                             className="profile-dropdown">
                                 <div className="info p-3">
                                     <a className="nav-link primary-medium-color pb-2 pl-2"
-                                        href="https://blog.persistence.one/coin-type-migration-faqs/" rel="noopener noreferrer"
+                                        href="https://blog.fury.fan/coin-type-migration-faqs/" rel="noopener noreferrer"
                                         target="_blank" onClick={() => onClick(t("HELP"))}>
                                         {t("FAQs")}
                                     </a>
                                     <a className="nav-link primary-medium-color pl-2"
-                                        href="https://notes.persistence.one/s/9l80_chis" rel="noopener noreferrer"
+                                        href="https://notes.fury.fan/s/9l80_chis" rel="noopener noreferrer"
                                         target="_blank" onClick={() => onClick(t("HELP"))}>
                                         {t("Guide")}
                                     </a>

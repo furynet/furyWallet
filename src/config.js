@@ -1,13 +1,13 @@
 export const DefaultChainInfo = {
-    counterpartyChainId: 'core-1',
-    chainName:'Persistence',
-    prefix:'persistence',
-    ledgerAppName:'Persistence',
+    counterpartyChainId: 'redshift-3',
+    chainName:'Gridiron',
+    prefix:'did:fury:iaa1',
+    ledgerAppName:'Gridiron',
     currency: {
-        coinDenom: 'XPRT',
-        coinMinimalDenom: 'uxprt',
+        coinDenom: 'FURY',
+        coinMinimalDenom: 'ufury',
         coinDecimals: 6,
-        coinGeckoId: 'persistence',
+        coinGeckoId: 'fury',
     },
     deprecatedCoinType: 750,
     coinType: 118,
@@ -20,10 +20,10 @@ export const AccountInfo = {
 };
 
 export const PstakeInfo = {
-    coinDenom: 'PSTAKE',
-    coinMinimalDenom: 'ibc/A6E3AF63B3C906416A9AF7A556C59EA4BD50E617EFFE6299B99700CCB780E444',
+    coinDenom: 'FURY',
+    coinMinimalDenom: 'ibc/7CE5F388D661D82A0774E47B5129DA51CC7129BD1A70B5FA6BCEBB5B0A2FAEAF',
     baseDenom: 'gravity0xfB5c6815cA3AC72Ce9F5006869AE67f18bF77006',
-    coinDecimals: 18,
+    coinDecimals: 6,
 };
 
 export const GasInfo ={
@@ -50,10 +50,10 @@ export const IBCConfiguration = {
 export const TestIBCChainInfos = [
     {
         counterpartyChainId: '',
-        chainName: "Persistence",
+        chainName: "Gridiron",
         sourceChannelId: "channel-30",
         portID: "transfer",
-        prefix:'persistence',
+        prefix:'did:fury:iaa1',
     }
 ];
 
@@ -95,16 +95,16 @@ export const IBCChainInfos = [
 
 export const ExternalChains = [
     {
-        rpc: 'https://rpc.core.persistence.one/',
-        rest: 'https://rest.core.persistence.one/',
-        chainId: 'core-1',
-        chainName: 'Persistence',
+        rpc: 'https://testnet.gridiron.zone:26657/',
+//        rest: 'https://rest.core.fury.fan/',
+        chainId: 'redshift-3',
+        chainName: 'Gridiron',
         portID: 'transfer',
         currency: {
-            coinDenom: 'XPRT',
-            coinMinimalDenom: 'uxprt',
+            coinDenom: 'FURY',
+            coinMinimalDenom: 'ufury',
             coinDecimals: 6,
-            coinGeckoId: 'persistence',
+            coinGeckoId: 'fury',
         },
         coinType: 118,
     },
@@ -165,15 +165,15 @@ export const ExternalChains = [
 ];
 
 export const TestNetFoundationNodes = [
-    "persistencevaloper1xepyv8lf99pa4x0w2ptr3vx3rr7wfs6msh2m76"
+    "did:fury:ivaloper1xepyv8lf99pa4x0w2ptr3vx3rr7wfs6msh2m76"
 ];
 
 export const MainNetFoundationNodes = [
-    "persistencevaloper19ehhcj0fqw22vwqgll9g70njsv7eq9068pprfu",
-    "persistencevaloper1hndk2s0dx9p0pxd9pxwmls3eywpdu5ha76kpqs",
-    "persistencevaloper1ve9ls5wnczj72mxldewze8u46sarlatmgmp3nd",
-    "persistencevaloper1emrvay43wy7f4ylwen3yxhm9qxddy8zc9zdk5y",
-    "persistencevaloper13dv6h3wtmhmt0jprhaw9pv343qanttkty4685v"
+    "did:fury:ivaloper19ehhcj0fqw22vwqgll9g70njsv7eq9068pprfu",
+    "did:fury:ivaloper1hndk2s0dx9p0pxd9pxwmls3eywpdu5ha76kpqs",
+    "did:fury:ivaloper1ve9ls5wnczj72mxldewze8u46sarlatmgmp3nd",
+    "did:fury:ivaloper1emrvay43wy7f4ylwen3yxhm9qxddy8zc9zdk5y",
+    "did:fury:ivaloper13dv6h3wtmhmt0jprhaw9pv343qanttkty4685v"
 ];
 
 

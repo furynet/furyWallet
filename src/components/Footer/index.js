@@ -4,17 +4,17 @@ import Icon from "../Icon";
 
 const socialList = [
     {
-        url: 'https://twitter.com/PersistenceOne',
+        url: 'https://twitter.com/GridironOne',
         iconName: 'twitter-logo',
         tooltip: 'twitter'
     },
     {
-        url: 'https://t.me/PersistenceOneChat',
+        url: 'https://t.me/GridironOneChat',
         iconName: 'telegram-plane',
         tooltip: 'telegram'
     },
     {
-        url: 'https://t.me/PersistenceOne',
+        url: 'https://t.me/GridironOne',
         iconName: 'announcements',
         tooltip: 'announcements'
     }, {
@@ -22,7 +22,7 @@ const socialList = [
         iconName: 'discord',
         tooltip: 'discord'
     }, {
-        url: 'https://www.reddit.com/r/PersistenceOne/',
+        url: 'https://www.reddit.com/r/GridironOne/',
         iconName: 'reddit-round',
         tooltip: 'reddit'
     }, {
@@ -30,11 +30,11 @@ const socialList = [
         iconName: 'youtube',
         tooltip: 'youtube'
     }, {
-        url: 'https://medium.com/persistence-blog',
+        url: 'https://medium.com/gridiron-blog',
         iconName: 'medium-m',
         tooltip: 'medium'
     }, {
-        url: 'https://www.linkedin.com/company/persistenceone/',
+        url: 'https://www.linkedin.com/company/gridironone/',
         iconName: 'linkedin-footer',
         tooltip: 'linkedIn'
     },
@@ -52,7 +52,7 @@ const Footer = () => {
             <footer className="footer">
                 <div className="footer-bottom-section">
                     <div className="footer-logo-section container ">
-                        <p className="copy-rights mb-sm-0">Developed by Persistence</p>
+                        <p className="copy-rights mb-sm-0">Developed by Gridiron</p>
 
                         <div className="social-links-section">
                             <ul className="list-unstyled footer-list">

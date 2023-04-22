@@ -1,4 +1,4 @@
-name = "persistence-wallet"
+name = "gridiron-wallet"
 type = "webpack"
 zone_id = '000fde296cba847a78e918414382ba7a'
 usage_model = ''
@@ -8,10 +8,10 @@ site = {bucket = "./build",entry-point = "workers-site"}
 compatibility_date = "2021-10-08"
 
 [env.testnet-staging]
-routes = ["https://test-core-1.wallet.persistence.one/*"]
+routes = ["https://test.wallet.furya.app/*"]
 
 [env.mainnet-staging]
-routes = ["https://staging.wallet.persistence.one/*"]
+routes = ["https://staging.wallet.furya.app/*"]
 
 [env.release]
-routes = ["https://wallet.persistence.one/*"]
+routes = ["https://wallet.furya.app/*"]

@@ -69,7 +69,7 @@ const SignIn = (props) => {
                         </div>
                         <div className="buttons">
                             <button className="button button-primary large"
-                                onClick={() => handleRoute("ledger", DefaultChainInfo && DefaultChainInfo.ledgerAppName)}>{t("USE_PERSISTENCE_LEDGER")}
+                                onClick={() => handleRoute("ledger", DefaultChainInfo && DefaultChainInfo.ledgerAppName)}>{t("USE_GRIDIRON_LEDGER")}
                             </button>
                         </div>
                         <div className="buttons">
